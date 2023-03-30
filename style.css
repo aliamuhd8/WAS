@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+width: 100%;
+display: inline-block; /* make the box the same size as the content */
+padding: 0.1em 0.2em; /* add padding to the box */
+font-size: 0.8em; /* set the font size */
+line-height: 0.5em; /* set the line-height the same as font size */
+background:#F5F5F5;
+text-align: center;
+}
+
+.form{
+font-family: 'Arial', sans-serif;
+position: top-left;
+}
+
+form input[name="student_name"], form input[name="email_address"]{
+  padding: 10px;
+  border-radius: 5px;
+  width: 28%;
+  border: 1px solid #808080;
+  font-size: 16px;
+}
+
+form input[name="matric_no"]{
+  padding: 5px;
+  border-radius: 5px;
+  width: 10%;
+  border: 1px solid #808080;
+  font-size: 16px;
+}
+
+form input[name="current_Address"], form input[name="home_Address"] {
+  padding: 60px;
+  border-radius: 5px;
+  width: 20%;
+  border: 1px solid #808080;
+  font-size: 16px;
+text-align: left;
+  vertical-align: top;
+}
+
+form input[name="mobile_number"], form input[name="home_number"] {
+  padding: 8px;
+  border-radius: 5px;
+  width: 15%;
+  border: 1px solid #808080;
+  font-size: 16px;
+}
+

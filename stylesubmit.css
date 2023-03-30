@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  width: 100%;
+  display: inline-block; /* make the box the same size as the content */
+  padding: 0.1em 0.2em; /* add padding to the box */
+  font-size: 0.8em; /* set the font size */
+  line-height: 0.5em; /* set the line-height the same as font size */
+  background:#F5F5F5;
+  text-align: center;
+}
+
+.submittedform {
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submittedform p {
+  margin: 0;
+  padding: 5px 0;
+  font-size: 25px;
+}
+
+.submittedform strong {
+  font-weight: bold;
+}
