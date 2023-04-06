@@ -23,9 +23,10 @@ This folder contains PHP code that has been designed for server-side scripting p
 The stylesubmit.css file in this folder has been created to design the HTML elements present in the process.php file. The purpose of this CSS file is to ensure that the HTML elements in the process.php file are visually appealing, user-friendly, and consistent with the design of the overall application. The stylesubmit.css file may include various design elements such as font types, font sizes, color schemes, background images, and spacing between elements. These design elements are carefully chosen to ensure that the overall design is cohesive and visually appealing.
 
 
-
 ## Assignment 2
 
+## Registerlogin.php
+The file contains HTML code that is designed to create a registration form for students who want to access their account on a website. The form requires users to provide their name, username, and password, which is processed by the server-side scripting language to validate the input and store it in a database. In addition to the basic form elements, the HTML code may also include regex (regular expression) patterns to ensure that users only input correct words in the input boxes. This helps to improve the accuracy of the input data and prevent potential errors or security issues.
 
 
 
