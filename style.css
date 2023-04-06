@@ -65,3 +65,15 @@ form input[name="mobile_number"], form input[name="home_number"] {
   font-size: 16px;
 }
 
+input[type="submit"] {
+  background-color: #A9A9A9;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #D3D3D3;
+}
