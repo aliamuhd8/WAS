@@ -12,7 +12,7 @@
       <input type="text" id="username" name="username" required pattern="[a-zA-Z0-9]{4,16}">
 
       <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#$%^&*]).{8,}">
+      <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#_-$%^&*]).{8,}">
 
       <input type="submit" value="Login">
     </form>
