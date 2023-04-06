@@ -24,7 +24,7 @@
         <input type="tel" id="mobile-number" name="mobile_number" pattern="[0-9]{10}"  required ><br><br>
         <label for="home-number">Home Phone No (Emergency) &nbsp;&nbsp;&nbsp;&nbsp;:</label>
         <input type="tel" id="home-number" name="home_number" pattern="[0-9]{10}" required ><br><br>
-        <button> Submit </button><br>
+        <input type="submit" value="Submit"><br>
       </form>
     </div>
   </body>
