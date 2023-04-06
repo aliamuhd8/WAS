@@ -6,7 +6,7 @@
 *LECTURER : DR. MUHAMAD SADRY ABU SEMAN*
  
 
-## Assignment 1 : Regex Function
+## Assignment 1 : Input Validation (Client & Server Side)
 
 ## StudentDetails.PHP
 This folder contains the coding for a client-server application designed to register student details using an HTML form. The form includes fields for the student's name, matric number, current address, home address, email address, phone number, and emergency home number. Each input field is designed to ensure the security and integrity of the data being submitted, with measures in place to prevent data breaches and SQL injection attacks.
