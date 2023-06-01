@@ -14,7 +14,11 @@
       <label for="password">Password:</label>
       <input type="password" id="password" name="password" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!@#_-$%^&*]).{8,}">
 
-      <input type="submit" value="Login">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <input type="submit" name="login" value="Login">
+      <input type="submit" name="request_otp" value="Request OTP">
     </form>
   </div>
   </body>
