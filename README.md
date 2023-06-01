@@ -47,6 +47,7 @@ This file's purpose is to authorise users by comparing their login credentials t
 
 ## Assignment 4 : XSS and CSRF implementation 
 
-## Process.php
-To prevent cross-site scripting (XSS) and malicious code injection in our form, I have implemented the use of the `str_replace` function in the `process.php` file. This function replaces URL encoding when passing parameters through the query string. By doing so, any potential XSS attacks or injection of malicious code can be mitigated. As a result, the output is transformed from `<b> this is text</b>` to a different format, : &lt;b&gt this is text &lt;/b&gt.
+## Process.php (XSS: Encoding Input)
+To prevent cross-site scripting (XSS) and malicious code injection in our form, I have implemented the use of the `str_replace` function in the `process.php` file. This function replaces URL encoding when passing parameters through the query string. By doing so, any potential XSS attacks or injection of malicious code can be mitigated. As a result, the output is transformed from `<b> this is text</b>` to a different format, : `&lt;b&gt this is text &lt;/b&gt`
+
 
