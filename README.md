@@ -50,4 +50,6 @@ This file's purpose is to authorise users by comparing their login credentials t
 ## Process.php (XSS: Encoding Input)
 To prevent cross-site scripting (XSS) and malicious code injection in our form, I have implemented the use of the str_replace function in the process.php file. This function replaces URL encoding when passing parameters through the query string. By doing so, any potential XSS attacks or injection of malicious code can be mitigated. As a result, the output is transformed from <b> this is text</b> to a different format, : &lt;b&gt this is text &lt;/b&gt.
 
+##Connect.php (Token using OTP send to email)
+To enhance the security of input validation in my implementation of CSRF (Cross-Site Request Forgery) prevention, I employ a shared secret technique. As part of this approach, when a user logs in for the first time, the server generates a uniquely random and cryptographically strong number exclusively for that user. This unique number is commonly referred to as a nonce or a one-time password (OTP) since it is only used once. By utilizing this shared secret technique, I establish a robust defense mechanism to thwart unauthorized actions or requests, thereby ensuring the prevention of CSRF attacks.
 
